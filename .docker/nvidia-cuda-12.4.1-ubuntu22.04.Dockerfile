@@ -24,8 +24,7 @@ RUN apt update -y && \
     libgl1 \
     python3.12 \
     python3.12-venv \
-    python3-pip \
-    python3.12-distutils
+    python3-pip
 
 # 最新の pip, setuptools, wheel をインストール
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
